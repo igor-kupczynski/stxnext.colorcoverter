@@ -1,3 +1,7 @@
 *.pyc
 *.pyo
 *~
+
+build
+dist
+src/stxnext.colorconverter.egg-info/

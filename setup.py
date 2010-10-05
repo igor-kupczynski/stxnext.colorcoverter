@@ -5,7 +5,7 @@ from setuptools import setup, find_packages
 setup(
     name = "stxnext.colorconverter",
     version = "0.1",
-    packages = find_packages(),
+    packages = find_packages('src'),
 
 	author = 'STX Next Sp. z o.o, Igor Kupczyński',
     author_email = 'info@stxnext.pl, igor.kupczynski@stxnext.pl',
@@ -15,7 +15,6 @@ setup(
     platforms = ['any'],
     url = 'http://stxnext.pl/',
     license = 'Zope Public License, Version 2.1 (ZPL)',
-    packages = find_packages('src'),
     include_package_data = True,
     package_dir = {'':'src'},
     namespace_packages = ['stxnext'],
